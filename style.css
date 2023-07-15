@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #150f0f;
+}
+#container{
+    display: flex;
+    gap: 10px;
+}
+.sidebar{
+    background-color: #0C0E10;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 15px;
+}
+.sidebar .logo-container{
+    text-align: center;
+}
+.sidebar .logo-container .name{
+    font-size: 20px;
+}
+.sidebar .logo-container .slogan{
+    font-size: 14px;
+    color: red;
+}
+.category{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+.sidebar .logo-container img{
+    width: 250px;
+}
+.quick-links,.more{
+    padding-top: 20px;
+    border-top: 1px solid #1C2025;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 20px;
+    position: fixed;
+    background-color: #150f0f;
+    
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #272A30;
+    width: 700px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.search-bar input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+}
+.nav-items img{
+    width: 50px;
+}
+.nav-items button{
+    background-color: red;
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+}
+.card{
+    margin-top: 60px;
+}
+.card img{
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+.menu{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.menu .top{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    background-color: #191D20;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu-items .item-image img{
+    width: 300px;
+    border-radius: 5px;
+}
+.menu-items .item-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-name{
+    font-size: 18px;
+}
+.item-price{
+    font-size: 14px;
+    color: grey;
+}
+.menu-items .item-details .left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-items .item-details .right img{
+    width: 30px;
+    cursor: pointer;
+}
+#seeAll{
+    cursor: pointer;
+}
