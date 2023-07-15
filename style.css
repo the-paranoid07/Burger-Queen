@@ -147,4 +147,5 @@ body{
 }
 #seeAll{
     cursor: pointer;
+    text-decoration: underline;
 }
