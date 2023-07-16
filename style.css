@@ -61,6 +61,7 @@ body{
     gap: 20px;
     position: fixed;
     background-color: #150f0f;
+    width: 100%;
     
 }
 .search-bar{
